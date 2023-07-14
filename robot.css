@@ -5,12 +5,12 @@ h1{
     text-align: center;
 }
 .container{
-    height: 500px;
-    width: 500px;
+    height: 490px;
+    width: 400px;
     background-color: rgb(135, 119, 135);
     border: 2px solid black;
     border-radius: 80%;
-    margin-left: 490px;
+    margin-left: 480px;
 }
 .container:hover{
     transform:scale(1.1);
