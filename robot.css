@@ -10,7 +10,7 @@ h1{
     background-color: rgb(135, 119, 135);
     border: 2px solid black;
     border-radius: 80%;
-    margin-left: 390px;
+    margin-left: 410px;
 }
 .container:hover{
     transform:scale(1.1);
