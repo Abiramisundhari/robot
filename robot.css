@@ -1,0 +1,231 @@
+body{
+    background: rgb(223, 212, 212);
+}
+h1{
+    text-align: center;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(135, 119, 135);
+    border: 2px solid black;
+    border-radius: 80%;
+    margin-left: 490px;
+}
+.container:hover{
+    transform:scale(1.1);
+    background-color: rgb(95, 170, 180);
+}
+.full{
+    left: 500px;
+}
+.head{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(39, 76, 110);
+    border: 2px solid black;
+    border-radius: 300px 300px 7px 7px;
+    top: 205px;
+    left: 700px;
+}
+.bdy{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(39, 76, 110);
+    border: 2px solid black;
+    border: 50%;
+    top: 310px;
+    left: 700px;
+}
+.hand1{
+    position: absolute;
+    height: 90px ;
+    width: 25px;
+    background-color: rgb(39, 76, 110);
+    border: 2px solid black;
+    top: 310px;
+    left: 675px;
+}
+.hand2{
+    position: absolute;
+    height: 90px ;
+    width: 25px;
+    background-color: rgb(39, 76, 110);
+    border: 2px solid black;
+    top: 310px;
+    left: 800px;
+}
+.leg1{
+    position: absolute;
+    height: 60px ;
+    width: 25px;
+    background-color: rgb(39, 76, 110);
+    border: 2px solid black;
+    top: 410px;
+    left: 710px;
+}
+.leg2{
+    position: absolute;
+    height: 60px ;
+    width: 25px;
+    background-color: rgb(39, 76, 110);
+    border: 2px solid black;
+    top: 410px;
+    left: 770px;
+}
+.eyes:hover.eye1{
+    
+        animation: eye1 1s infinite;
+}
+
+@keyframes eye1
+{
+    0%
+    {
+        background: rgb(170, 162, 162);
+    }
+    25%
+    {
+        background: rgb(238, 238, 242);
+    }
+    
+}
+
+    
+
+.eye1{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius:  70%;
+    top: 230px;
+    left: 720px;
+}
+.eye2{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius:  70%;
+    top: 230px;
+    left: 760px;
+}
+.container:hover .hand1
+{
+    animation: hand1 1s infinite;
+}
+@keyframes hand1
+{
+    0%
+    {
+        transform: rotate(-50deg);
+        transform-origin: top center;
+    }
+    25%
+    {
+        transform: rotate(50deg);
+        transform-origin: top center;
+    }
+    50%
+    {
+        transform: rotate(-50deg);
+        transform-origin: top center;
+    }
+    75%
+    {
+        transform: rotate(50deg);
+        transform-origin: top center;
+    }
+    100%
+    {
+        transform: rotate*(-50deg);
+        transform-origin: top center;
+    }
+}
+.container:hover .hand2
+{
+    animation: hand2 1s infinite;
+}
+@keyframes hand2
+{
+    0%
+    {
+        transform: rotate(-50deg);
+        transform-origin: top center;
+    }
+    25%
+    {
+        transform: rotate(50deg);
+        transform-origin: top center;
+    }
+    50%
+    {
+        transform: rotate(-50deg);
+        transform-origin: top center;
+    }
+    75%
+    {
+        transform: rotate(50deg);
+        transform-origin: top center;
+    }
+    100%
+    {
+        transform: rotate*(-50deg);
+        transform-origin: top center;
+    }
+}
+.container:hover .leg1
+{
+    animation: leg1 1s infinite;
+}
+@keyframes leg1
+{
+     50%
+    {
+        transform: rotate(-50deg);
+        transform-origin: top center;
+    }
+    75%
+    {
+        transform: rotate(50deg);
+        transform-origin: top center;
+    }
+    100%
+    {
+        transform: rotate*(-50deg);
+        transform-origin: top center;
+    }
+}
+.container:hover .leg2
+{
+    animation: leg2 1s infinite;
+}
+@keyframes leg2
+{
+      0%
+    {
+        transform: rotate(-50deg);
+        transform-origin: top center;
+    }
+    25%
+    {
+        transform: rotate(50deg);
+        transform-origin: top center;
+    }
+    50%
+    {
+        transform: rotate*(-50deg);
+        transform-origin: top center;
+    }
+}
+.mouth{
+    position: absolute;
+    height: 10px;
+    width: 60px;
+    background-color: black ;
+    margin-left: 225px;
+    margin-top: 180px;
+}
